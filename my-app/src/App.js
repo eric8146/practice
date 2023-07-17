@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  let post = '강남 우동 맛집'
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link qe"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='black-nav'>
+        <h2 style={{color : 'red'}}>qw</h2>
+      </div>
+
+      <div className='red-nav'>
+        <h1>we</h1>
+      </div>
+      <div>
+        <h2>er</h2>
+      </div>
+
+      <h1>{ post }</h1>
     </div>
   );
 }
-
 export default App;
